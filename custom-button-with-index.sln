@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomButton", "custom-button-with-index\CustomButton.csproj", "{622FB831-8992-41CA-B8C6-890C73F0E3E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custom-button-with-index", "custom-button-with-index\custom-button-with-index.csproj", "{622FB831-8992-41CA-B8C6-890C73F0E3E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

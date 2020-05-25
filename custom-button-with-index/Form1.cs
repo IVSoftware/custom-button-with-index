@@ -56,7 +56,7 @@ namespace CustomButton
                 // When you make your custom button, just 
                 // make sure you pass in the list like so:
                 _layout.Controls.Add(new MyIndexedButton(_test), column, row);
-            } 
+            }
         }
     }
 }
