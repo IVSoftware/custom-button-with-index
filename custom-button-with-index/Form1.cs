@@ -27,14 +27,18 @@ namespace CustomButton
             {
                 // Here the button handles its own click event. 
                 // Note: You DON'T need to do a += to subscribe!
-                base.OnClick(e);
+                base.OnClick(e); 
+
+                // Using System.Linq to detect the "real" index.
+                int zeroBasedIndex = _list.IndexOf(this);
+
+                // Suggestion: Make the index 1-based? More intuitive?
+                int oneBasedIndex = zeroBasedIndex + 1;
+
                 // Now, to show that it works, we'll have it look 
                 // in the list and retrieve its own index using
                 // a System class called Linq.
-                MessageBox.Show(
-                    "Clicked " + 
-                    _list.IndexOf(this) // Using System.Linq to detect the index.
-                    .ToString());
+                MessageBox.Show("Clicked " +  oneBasedIndex.ToString());
             }
         }
         public Form1()
