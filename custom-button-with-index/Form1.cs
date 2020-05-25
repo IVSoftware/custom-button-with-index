@@ -20,7 +20,8 @@ namespace CustomButton
             {
                 // This button adds itself to the list.
                 list.Add(this);
-                _list = list;   // Here we keep track of the list it's in.
+                // Here we keep track of the list it's in.
+                _list = list;   
             }
             protected override void OnClick(EventArgs e)
             {
@@ -43,7 +44,7 @@ namespace CustomButton
         // We'll just make a little layout panel to manage the button positions.
         TableLayoutPanel _layout;   
         // Here's the list of Buttons you already had. We still need it.
-        List<Button> _test = new List<Button> { };
+        List<Button> _test = new List<Button>();
         protected override void OnHandleCreated(EventArgs e)
         {
             base.OnHandleCreated(e);
